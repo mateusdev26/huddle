@@ -1,0 +1,15 @@
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/request/MessagePostRequestBody.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/repository/UserRepository.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/mapper/MessageMapper.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/request/MessagePutRequestBody.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/request/UserPutRequestBody.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/repository/MessageRepository.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/domain/User.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/HuddleApplication.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/domain/Message.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/service/MessageService.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/service/UserService.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/mapper/UserMapper.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/request/UserPostRequestBody.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/controller/UserController.java
+/home/mateus/Projetos-java/huddle/src/main/java/br/com/huddle/controller/MessageController.java
