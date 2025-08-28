@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-08-24T16:39:13-0300",
+    date = "2025-08-28T13:42:51-0300",
     comments = "version: 1.6.3, compiler: javac, environment: Java 21.0.7 (Ubuntu)"
 )
 @Component
@@ -25,7 +25,6 @@ public class MessageMapperImpl extends MessageMapper {
         message.content( messagePostRequestBody.getContent() );
         message.senderId( messagePostRequestBody.getSenderId() );
         message.recipientId( messagePostRequestBody.getRecipientId() );
-        message.sendingTime( messagePostRequestBody.getSendingTime() );
 
         return message.build();
     }

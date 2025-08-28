@@ -1,10 +1,11 @@
 package br.com.huddle.request;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-@Builder
 public class UserPutRequestBody {
     private Long id ;
     private String username;

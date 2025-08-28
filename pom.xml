@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.com</groupId>
 	<artifactId>huddle</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.4</version>
 	<name>huddle</name>
 	<description>A backend project of a chat</description>
 	<url/>

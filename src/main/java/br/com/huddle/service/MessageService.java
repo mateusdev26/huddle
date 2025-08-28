@@ -9,7 +9,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
-
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
@@ -33,6 +33,8 @@ public class MessageService {
 
     public Message save(MessagePostRequestBody messagePostRequestBody) {
         Message message = MessageMapper.INSTANCE.toMessage(messagePostRequestBody);
+        message.setSendingTime(LocalDateTime.now());
+        message.setRead(false);
         return messageRepository.save(message);
     }
 

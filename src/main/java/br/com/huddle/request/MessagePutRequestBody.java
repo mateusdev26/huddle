@@ -4,11 +4,7 @@ import lombok.*;
 
 import java.time.LocalDateTime;
 
-@Getter
-@Setter
-@AllArgsConstructor
-@Builder
-@NoArgsConstructor
+@Data
 public class MessagePutRequestBody {
     private Long id ;
     private String content ;

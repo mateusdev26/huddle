@@ -7,11 +7,10 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "messages_tbl")
-@Getter
-@Setter
+@Data
 @AllArgsConstructor
-@Builder
 @NoArgsConstructor
+@Builder
 public class Message {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,4 +20,12 @@ public class Message {
     private Long recipientId;
     private LocalDateTime sendingTime ;
     private boolean isRead;
+   
+@PrePersist
+    protected void onCreate() {
+        sendingTime = LocalDateTime.now();
+    }     
+    
+
+
 }
